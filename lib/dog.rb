@@ -6,5 +6,8 @@ class Dog
     @@all << self
   end
   def self.all?
+    @all.each do |instance|
+      puts instance
+    end
   end
 end
