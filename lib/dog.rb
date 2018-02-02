@@ -7,7 +7,7 @@ class Dog
   end
   def self.all?
     @all.each do |instance|
-      puts instance
+      puts instance.name
     end
   end
 
