@@ -10,4 +10,5 @@ class Dog
       puts instance
     end
   end
+
 end
