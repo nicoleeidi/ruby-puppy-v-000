@@ -1,3 +1,4 @@
+require 'pry'
 class Dog
   @@all= []
   attr_accessor :name
@@ -10,6 +11,7 @@ class Dog
       puts instance.name
     end
   end
+  binding.pry
   def self.clear_all
     @@all.clear
   end
